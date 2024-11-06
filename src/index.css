@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add this to your CSS if you're using Tailwind */
+.movie-card {
+    @apply relative bg-gray-800 text-white p-4 rounded-lg shadow-md;
+  }
+  .movie-info {
+    @apply flex justify-between items-center mt-2;
+  }
+  .movie-card button {
+    @apply focus:outline-none;
+  }
+  
